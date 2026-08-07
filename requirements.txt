@@ -1,0 +1,22 @@
+# Core 
+numpy 
+pandas 
+scipy 
+
+# Signal processing 
+PyWavelets 
+mne 
+spkit 
+
+# ML 
+torch 
+scikit-learn 
+
+# Streaming / real-time 
+pylsl 
+pynput 
+requests 
+
+# Only needed if you still use the DA.py-style scraping or plotting utilities 
+beautifulsoup4 
+matplotlib 
