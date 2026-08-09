@@ -86,6 +86,6 @@ This code reflects a dissertation-stage exploratory prototype
 
 ## Original Dissertation: 
 
-> Rosado, F., Ukolov, A., Liu, C., Cakti, R. A., & Djari, D. (2024). *The 
+> Caiado, F., Ukolov, A., Liu, C., Cakti, R. A., & Djari, D. (2024). *The 
 > Power of the Mind: Research, Development and Business Plan for a Device to 
 > Control Technology through Thought*. King's College London 
