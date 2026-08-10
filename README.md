@@ -53,7 +53,7 @@ train_model.py          Trains one binary "SingularNet" CNN per command
                          class, in a competitive scheme where each step 
                          reinforces the correct class and suppresses a 
                          randomly-chosen wrong one 
-eeg_stream.py            Real-time client: pulls EEG from an LSL stream, 
+eeg_stream.py           Real-time client: pulls EEG from an LSL stream, 
                          buffers a rolling window, sends it to an inference 
                          API, and prints the predicted command 
 requirements.txt        Python dependencies 
