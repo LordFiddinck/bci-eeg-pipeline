@@ -16,16 +16,16 @@ offline preprocessing and training code that produced the underlying model
 Across 45 participants wearing an EMOTIV Flex 2 Saline Wireless Cap, deep 
 neural networks trained on this pipeline distinguished: 
 
-● Distinguish between directions: 83.3% 
-● Distinguish movement from steady state: 80.9% 
-● Distinguish between movements performed: 78.5% 
-● Distinguish movement from imagination: 68.75% 
+- Distinguish between directions: 83.3% 
+- Distinguish movement from steady state: 80.9% 
+- Distinguish between movements performed: 78.5% 
+- Distinguish movement from imagination: 68.75% 
 
 With insufficient separation for: 
 
-● Distinguish between movements imagined: 57.1% 
-● Distinguish wrong from correct input: 56.25% 
-● Distinguish between different intentions: 53.8% 
+- Distinguish between movements imagined: 57.1% 
+- Distinguish wrong from correct input: 56.25% 
+- Distinguish between different intentions: 53.8% 
 
 The best-performing tasks needed as few as three electrodes (C3, C4, Cz over 
 the motor cortex), with a second three-electrode set (Fz, F3, F4) used for 
