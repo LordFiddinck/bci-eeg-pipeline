@@ -16,23 +16,34 @@ offline preprocessing and training code that produced the underlying model
 Across 45 participants wearing an EMOTIV Flex 2 Saline Wireless Cap, deep 
 neural networks trained on this pipeline distinguished: 
 
-- Distinguish between directions: 83.3% 
-- Distinguish movement from steady state: 80.9% 
-- Distinguish between movements performed: 78.5% 
-- Distinguish movement from imagination: 68.75% 
+- Distinguish between directions: 83.3% (CL = 99.99%) 
+- Distinguish movement from steady state: 80.9% (CL = 99.99%) 
+- Distinguish between movements performed: 78.5% (CL = 99.96%) 
+- Distinguish movement from imagination: 68.75% (CL = 97.99%) 
 
-With insufficient separation for: 
+With insufficient separation to confirm the corresponding hypotheses: 
 
-- Distinguish between movements imagined: 57.1% 
-- Distinguish wrong from correct input: 56.25% 
-- Distinguish between different intentions: 53.8% 
+- Distinguish between movements imagined: 57.1% (CL = 69.85%) 
+- Distinguish wrong from correct input: 56.25% (CL = 58.69%) 
+- Distinguish between different intentions: 53.8% (CL N/A)
+
+The confidence level (CL) is what actually separates the two groups above, as 
+the probability that the observed accuracy reflects a real signal rather than 
+chance, given the sample size. Accuracy on distinguishing imagined movements 
+also varied sharply with task complexity, with simple movements reaching 62%, 
+as opposed to 53% for complex ones (CL = 86.98%). A larger dataset of simpler, 
+more repeated imagined movements could close this gap 
+
+The best-performing network can already distinguish between four movements, 
+i.e. four usable BCI command inputs, with little to no user training 
 
 The best-performing tasks needed as few as three electrodes (C3, C4, Cz over 
-the motor cortex), with a second three-electrode set (Fz, F3, F4) used for 
-the imagination/error-related-potential tasks. The resulting model is light 
-enough (~300 MB, ~10 ms inference) to run on consumer hardware in real time 
+the motor cortex). A second three-electrode set (Fz, F3, F4) was also 
+sufficient for two of the tasks (distinguishing wrong from correct input and 
+distinguishing between directions). The resulting model is light enough 
+(~300 MB, ~10 ms inference) to run on consumer hardware in real time 
 
-Full methodology, experiment design, and results discussion are in the
+Full methodology, experiment design, and results discussion are in the 
 dissertation (not included in this repo) 
 
 ## Files 
